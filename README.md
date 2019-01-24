@@ -1,7 +1,9 @@
 spark-bigquery-parallel
 =======================
 
-Google BigQuery support for Spark, SQL, and DataFrames. BigQuery Standard SQL is supported with default Staging BigQuery dataset region set to EU.  
+Google BigQuery support for Spark, SQL, and DataFrames.    
+Given list of BigQuery SQL statement it will execute it in parallel additionally it can save multiple Dataframe to table in parallel.    
+BigQuery Standard SQL is supported with default Staging BigQuery dataset region set to EU.  
 
  
 ## Usage:
